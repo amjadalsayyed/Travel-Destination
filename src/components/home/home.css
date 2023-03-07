@@ -1,0 +1,6 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: rgb(6, 197, 197);
+}
