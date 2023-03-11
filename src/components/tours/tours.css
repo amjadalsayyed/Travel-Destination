@@ -1,28 +1,17 @@
 .tours {
   flex: 1;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding-top: 3%;
+  row-gap: 30px;
+  padding-top: 150px;
+  padding-bottom: 30px;
 }
-.tours img {
+
+/* .tours img {
   width: 80%;
   height: 70%;
   border-radius: 20%;
   border-color: aqua;
   border: 1px solid;
-}
-
-.tourCard {
-  background-image: linear-gradient(
-    rgb(12, 12, 12),
-    rgb(110, 106, 106),
-    rgb(12, 12, 12)
-  );
-  box-shadow: 1px 1px 4px 4px aqua;
-  height: 60%;
-  width: 17%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+} */
