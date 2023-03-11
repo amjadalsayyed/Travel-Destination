@@ -1,0 +1,41 @@
+.tourDetail {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  row-gap: 30px;
+  margin: 2%;
+  margin-top: 130px;
+  background-image: linear-gradient(
+    to right,
+    rgb(12, 12, 12),
+    rgb(110, 106, 106),
+    rgb(12, 12, 12)
+  );
+  box-shadow: 1px 1px 4px 6px aqua;
+  padding: 2%;
+}
+
+@media screen and (max-width: 1200px) {
+  .tourDetail {
+    flex-wrap: wrap;
+  }
+}
+
+.tourDetail img {
+  height: 30rem;
+  width: 100%;
+}
+
+.tourtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 40rem;
+  align-items: center;
+}
+
+.pa {
+  padding-left: 50px;
+  padding-right: 50px;
+}

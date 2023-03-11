@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 export default function Footer() {
   return (
     <div className="footer">
-      <p>created with love by Amjad Al-Sayyed :)</p>
+      <p>created with love by Amjad Al-Sayyed </p>
       <div className="socials">
         <h4>My Socials :</h4>
         <div className="icons-contanier">
